@@ -58,6 +58,6 @@ array['humidity']['med'] = statistics.median(list_h)
 array['temperature']['avg'] = sum_t/count
 array['humidity']['avg'] = sum_h/count
 
-# Writing complete data to endpoint
+# Writing temperature and humidity data to endpoint
 with open('temperature_and_humidity_summary_data.json', 'w') as outfile:
     json.dump(array, outfile, indent = 2)
