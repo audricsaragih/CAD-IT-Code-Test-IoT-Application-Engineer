@@ -1,0 +1,192 @@
+[
+        {
+                "id": 1,
+                "name": "Leanne Graham",
+                "username": "Bret",
+                "email": "Sincere@april.biz",
+                "address": {
+                        "street": "Kulas Light",
+                        "suite": "Apt. 556",
+                        "city": "Gwenborough",
+                        "zipcode": "92998-3874",
+                        "geo": {
+                                "lat": "-37.3159",
+                                "lng": "81.1496"
+                        }
+                },
+                "phone": "1-770-736-8031 x56442",
+                "salary in IDR": 4001111.510555328,
+                "salary in USD": 276.0891458487954
+        },
+        {
+                "id": 2,
+                "name": "Ervin Howell",
+                "username": "Antonette",
+                "email": "Shanna@melissa.tv",
+                "address": {
+                        "street": "Victor Plains",
+                        "suite": "Suite 879",
+                        "city": "Wisokyburgh",
+                        "zipcode": "90566-7771",
+                        "geo": {
+                                "lat": "-43.9509",
+                                "lng": "-34.4618"
+                        }
+                },
+                "phone": "010-692-6593 x09125",
+                "salary in IDR": 4685534.363816402,
+                "salary in USD": 323.31645267534736
+        },
+        {
+                "id": 3,
+                "name": "Clementine Bauch",
+                "username": "Samantha",
+                "email": "Nathan@yesenia.net",
+                "address": {
+                        "street": "Douglas Extension",
+                        "suite": "Suite 847",
+                        "city": "McKenziehaven",
+                        "zipcode": "59590-4157",
+                        "geo": {
+                                "lat": "-68.6102",
+                                "lng": "-47.0653"
+                        }
+                },
+                "phone": "1-463-123-4447",
+                "salary in IDR": 3013601.6163306856,
+                "salary in USD": 207.94788997665523
+        },
+        {
+                "id": 4,
+                "name": "Patricia Lebsack",
+                "username": "Karianne",
+                "email": "Julianne.OConner@kory.org",
+                "address": {
+                        "street": "Hoeger Mall",
+                        "suite": "Apt. 692",
+                        "city": "South Elvis",
+                        "zipcode": "53919-4257",
+                        "geo": {
+                                "lat": "29.4572",
+                                "lng": "-164.2990"
+                        }
+                },
+                "phone": "493-170-9623 x156",
+                "salary in IDR": 9619331.420029558,
+                "salary in USD": 663.7638037295877
+        },
+        {
+                "id": 5,
+                "name": "Chelsey Dietrich",
+                "username": "Kamren",
+                "email": "Lucio_Hettinger@annie.ca",
+                "address": {
+                        "street": "Skiles Walks",
+                        "suite": "Suite 351",
+                        "city": "Roscoeview",
+                        "zipcode": "33263",
+                        "geo": {
+                                "lat": "-31.8129",
+                                "lng": "62.5342"
+                        }
+                },
+                "phone": "(254)954-1289",
+                "salary in IDR": 8380696.500881106,
+                "salary in USD": 578.2941396264935
+        },
+        {
+                "id": 6,
+                "name": "Mrs. Dennis Schulist",
+                "username": "Leopoldo_Corkery",
+                "email": "Karley_Dach@jasper.info",
+                "address": {
+                        "street": "Norberto Crossing",
+                        "suite": "Apt. 950",
+                        "city": "South Christy",
+                        "zipcode": "23505-1337",
+                        "geo": {
+                                "lat": "-71.4197",
+                                "lng": "71.7478"
+                        }
+                },
+                "phone": "1-477-935-8478 x6430",
+                "salary in IDR": 9091824.554498984,
+                "salary in USD": 627.364188385326
+        },
+        {
+                "id": 7,
+                "name": "Kurtis Weissnat",
+                "username": "Elwyn.Skiles",
+                "email": "Telly.Hoeger@billy.biz",
+                "address": {
+                        "street": "Rex Trail",
+                        "suite": "Suite 280",
+                        "city": "Howemouth",
+                        "zipcode": "58804-1099",
+                        "geo": {
+                                "lat": "24.8918",
+                                "lng": "21.8984"
+                        }
+                },
+                "phone": "210.067.6132",
+                "salary in IDR": 6996573.171622309,
+                "salary in USD": 482.78532245998224
+        },
+        {
+                "id": 8,
+                "name": "Nicholas Runolfsdottir V",
+                "username": "Maxime_Nienow",
+                "email": "Sherwood@rosamond.me",
+                "address": {
+                        "street": "Ellsworth Summit",
+                        "suite": "Suite 729",
+                        "city": "Aliyaview",
+                        "zipcode": "45169",
+                        "geo": {
+                                "lat": "-14.3990",
+                                "lng": "-120.7677"
+                        }
+                },
+                "phone": "586.493.6943 x140",
+                "salary in IDR": 3910254.930004663,
+                "salary in USD": 269.8197590414545
+        },
+        {
+                "id": 9,
+                "name": "Glenna Reichert",
+                "username": "Delphine",
+                "email": "Chaim_McDermott@dana.io",
+                "address": {
+                        "street": "Dayna Park",
+                        "suite": "Suite 449",
+                        "city": "Bartholomebury",
+                        "zipcode": "76495-3109",
+                        "geo": {
+                                "lat": "24.6463",
+                                "lng": "-168.8889"
+                        }
+                },
+                "phone": "(775)976-6794 x41206",
+                "salary in IDR": 5968429.287836904,
+                "salary in USD": 411.84019485353423
+        },
+        {
+                "id": 10,
+                "name": "Clementina DuBuque",
+                "username": "Moriah.Stanton",
+                "email": "Rey.Padberg@karina.biz",
+                "address": {
+                        "street": "Kattie Turnpike",
+                        "suite": "Suite 198",
+                        "city": "Lebsackbury",
+                        "zipcode": "31428-2261",
+                        "geo": {
+                                "lat": "-38.2386",
+                                "lng": "57.2232"
+                        }
+                },
+                "phone": "024-648-3804",
+                "salary in IDR": 5964808.282007527,
+                "salary in USD": 411.59033418259094
+        }
+]

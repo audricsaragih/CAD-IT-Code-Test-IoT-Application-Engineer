@@ -9,6 +9,7 @@ users = json.loads(response.text)
 with open('salary_data.json') as f:
     salary_data = json.load(f)
 
+# Change the name of the key in users
 for i in users:
     i["salary in IDR"] = i.pop("website")
     i["salary in USD"] = i.pop("company")
@@ -18,6 +19,7 @@ url = 'https://free.currconv.com/api/v7/convert?apiKey=b0f94113e52b34c8241a&q=US
 response = requests.get(url)
 convertIDRtoUSD = response.json()
 
+# Change the value of salary in users
 for i in users:
     for j in salary_data['array']:
         if (i['id'] == j['id']):
