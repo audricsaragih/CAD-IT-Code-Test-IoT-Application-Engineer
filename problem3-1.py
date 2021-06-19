@@ -25,11 +25,12 @@ while (True):
             else:
                 sensor_value.append({'temperature': i['temperature'], 'humidity': i['humidity']})
 
-            # Push rate = 2 minutes
+            # Stream 5 data
             if (count % 5 == 0):
                 # Writing sensor data to endpoint
                 with open('stream_sensor_data.json', 'w') as outfile:
                     json.dump(sensor_value, outfile, indent = 2)
+            
+                # Push rate = 2 minutes
                 time.sleep(2*60)
-
-# Data visualization
+            
