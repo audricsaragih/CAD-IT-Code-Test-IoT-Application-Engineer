@@ -5,7 +5,7 @@ import statistics
 with open('sensor_data.json') as f:
     sensor_data = json.load(f)
 
-array = {
+sensor_value = {
     'temperature': {
         'min': 999, 
         'max': 0, 
@@ -25,16 +25,17 @@ count = 0
 
 for i in sensor_data['array']:
     # Get the minimum data
-    if (array['temperature']['min'] > i['temperature']):
-        array['temperature']['min'] = i['temperature']
-    if (array['humidity']['min'] > i['humidity']):
-        array['humidity']['min'] = i['humidity']
+    if (sensor_value['temperature']['min'] > i['temperature']):
+        sensor_value['temperature']['min'] = i['temperature']
+    if (sensor_value['humidity']['min'] > i['humidity']):
+        sensor_value['humidity']['min'] = i['humidity']
+    # print(i)
     
     # Get the maximum data
-    if (array['temperature']['max'] < i['temperature']):
-        array['temperature']['max'] = i['temperature']
-    if (array['humidity']['max'] < i['humidity']):
-        array['humidity']['max'] = i['humidity']
+    if (sensor_value['temperature']['max'] < i['temperature']):
+        sensor_value['temperature']['max'] = i['temperature']
+    if (sensor_value['humidity']['max'] < i['humidity']):
+        sensor_value['humidity']['max'] = i['humidity']
 
     # Get sum of temperature and humidity
     sum_t = sum_t + i['temperature']
@@ -51,13 +52,13 @@ for i in sensor_data['array']:
         list_t[j] = i['temperature']
         list_h[j] = i['humidity']
 
-array['temperature']['med'] = statistics.median(list_t)
-array['humidity']['med'] = statistics.median(list_h)
+sensor_value['temperature']['med'] = statistics.median(list_t)
+sensor_value['humidity']['med'] = statistics.median(list_h)
 
 # Get mean/average of temperature and humidity
-array['temperature']['avg'] = sum_t/count
-array['humidity']['avg'] = sum_h/count
+sensor_value['temperature']['avg'] = sum_t/count
+sensor_value['humidity']['avg'] = sum_h/count
 
 # Writing temperature and humidity data to endpoint
 with open('temperature_and_humidity_summary_data.json', 'w') as outfile:
-    json.dump(array, outfile, indent = 2)
+    json.dump(sensor_value, outfile, indent = 2)
